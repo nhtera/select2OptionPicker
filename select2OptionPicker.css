@@ -1,0 +1,68 @@
+.select2OptionPicker strong {
+  display: block;
+  clear: left;
+  padding-top: 5px;
+}
+
+.select2OptionPicker ul {
+  list-style-type: none;
+  clear: left;
+  margin: 5px;
+  padding: 0;
+}
+
+.select2OptionPicker li, .select2OptionPicker a {
+  float: left;
+  min-width: 37px;
+}
+
+.select2OptionPicker li { 
+  margin: 0 5px 5px 0; 
+}
+
+.select2OptionPicker li a, 
+.select2OptionPicker .limited a, 
+.select2OptionPicker .disabled {
+  border: 1px solid #c0c0c0;
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+}
+
+.select2OptionPicker li:last-child { 
+  margin-right: 0; 
+}
+
+.select2OptionPicker a {
+  color: #3c89c8;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;  
+}
+
+.select2OptionPicker .disabled span {
+  padding: 4px;
+  display: block;
+  font-size: 15px;
+  min-width: 37px;
+}
+
+.select2OptionPicker a:hover, 
+.select2OptionPicker .picked {
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.select2OptionPicker .limited a, 
+.select2OptionPicker .disabled {
+  text-align: center;
+}
+
+.select2OptionPicker .disabled {
+  border: 1px solid #d1d1d1;
+  color: #999;
+}
+
+.select2OptionPicker .disabled .picked {
+  border: 1px solid #EAFF00;
+}
