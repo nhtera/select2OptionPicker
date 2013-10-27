@@ -16,7 +16,7 @@ and if used correctly can provide a better visual representation of the options 
 * Supports disabled options
 * Supports disabled selects
 * Supports OptGroups
-* Allows no default selection (like threadless)
+* Allows no default selection
 
 ## Howto
 
