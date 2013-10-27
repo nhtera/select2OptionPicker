@@ -58,7 +58,7 @@ By default the option selected in your select will be marked as selected
 in the buttons.  However, the plugin also supports the threadless style,
 no default selection.
 
-       $('select[name=simple-select]').select2Buttons({noDefault: true});
+       $('select[name=simple-select]').select2OptionPicker({noDefault: true});
 
 ### OptGroups
 The plugin understands and honors option groups.  Each option group will
@@ -69,7 +69,7 @@ page as a strong tag.
 The plugin supports disabled options and disabled selects.
 
 ### Styling
-The select2Buttons.css is provided as a guide, it's mostly copied from
+The select2OptionPicker.css is provided as a guide, it's mostly copied from
 threadless.com.  I suggest restyling if your going to use the plugin on a
 commercial site.
 
