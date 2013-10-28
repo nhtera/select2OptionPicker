@@ -15,7 +15,7 @@ jQuery.fn.select2OptionPicker = function(options) {
         var $ = jQuery;
         var select = $(this);
         var multiselect = select.attr('multiple');
-        //select.hide();
+        select.hide();
 
         var buttonsHtml = $('<div class="select2OptionPicker"></div>');
         var selectIndex = 0;
